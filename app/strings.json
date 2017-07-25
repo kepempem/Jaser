@@ -1,0 +1,368 @@
+{
+	"strings":[
+		{
+			"name":"title",
+			"strings":{
+				"default":"Jaser",
+				"he":"ג'ייסר"
+			}
+		},
+		{
+			"name":"run",
+			"strings":{
+				"default":"Run",
+				"he":"הרץ"
+			}
+		},
+		{
+			"name":"clear",
+			"strings":{
+				"default":"Clear",
+				"he":"נקה"
+			}
+		},
+		{
+			"name":"file",
+			"strings":{
+				"default":"File",
+				"he":"קובץ"
+			}
+		},
+		{
+			"name":"new",
+			"strings":{
+				"default":"New",
+				"he":"חדש"
+			}
+		},
+		{
+			"name":"open",
+			"strings":{
+				"default":"Open",
+				"he":"פתח"
+			}
+		},
+		{
+			"name":"save",
+			"strings":{
+				"default":"Save",
+				"he":"שמור"
+			}
+		},
+		{
+			"name":"save_as",
+			"strings":{
+				"default":"Save As",
+				"he":"שמור עותק"
+			}
+		},
+		{
+			"name":"edit",
+			"strings":{
+				"default":"Edit",
+				"he":"ערוך"
+			}
+		},
+		{
+			"name":"undo",
+			"strings":{
+				"default":"Undo",
+				"he":"בטל"
+			}
+		},
+		{
+			"name":"redo",
+			"strings":{
+				"default":"Redo",
+				"he":"עשה שוב"
+			}
+		},
+		{
+			"name":"cut",
+			"strings":{
+				"default":"Cut",
+				"he":"חתוך"
+			}
+		},
+		{
+			"name":"copy",
+			"strings":{
+				"default":"Copy",
+				"he":"העתק"
+			}
+		},
+		{
+			"name":"paste",
+			"strings":{
+				"default":"Paste",
+				"he":"הדבק"
+			}
+		},
+		{
+			"name":"delete",
+			"strings":{
+				"default":"Delete",
+				"he":"מחק"
+			}
+		},
+		{
+			"name":"select_all",
+			"strings":{
+				"default":"Select All",
+				"he":"בחר הכל"
+			}
+		},
+		{
+			"name":"before_exit",
+			"strings":{
+				"default":"Do you wish to save this file before exiting?",
+				"he":"אתה רוצה לשמור קובץ זה לפני שאתה יוצא?"
+			}
+		},
+		{
+			"name":"cancel",
+			"strings":{
+				"default":"Cancel",
+				"he":"בטל"
+			}
+		},
+		{
+			"name":"no",
+			"strings":{
+				"default":"No",
+				"he":"לא"
+			}
+		},
+		{
+			"name":"yes",
+			"strings":{
+				"default":"Yes",
+				"he":"כן"
+			}
+		},
+		{
+			"name":"alert",
+			"strings":{
+				"default":"alert",
+				"he":"הודעה"
+			}
+		},
+		{
+			"name":"open_file",
+			"strings":{
+				"default":"Open File",
+				"he":"פתח קובץ"
+			}
+		},
+		{
+			"name":"save_file",
+			"strings":{
+				"default":"Save File",
+				"he":"שמור קובץ"
+			}
+		},
+		{
+			"name":"exit",
+			"strings":{
+				"default":"Exit",
+				"he":"צא"
+			}
+		},
+		{
+			"name":"view",
+			"strings":{
+				"default":"View",
+				"he":"תצוגה"
+			}
+		},
+		{
+			"name":"toggle_developer_tools",
+			"strings":{
+				"default":"Toggle Developer Tools",
+				"he":"הצג/הסתר כלי מפתחים"
+			}
+		},
+		{
+			"name":"gist",
+			"strings":{
+				"default":"Gist",
+				"he":"ג'יסט"
+			}
+		},
+		{
+			"name":"create",
+			"strings":{
+				"default":"Create",
+				"he":"צור"
+			}
+		},
+		{
+			"name":"load",
+			"strings":{
+				"default":"Load",
+				"he":"טען"
+			}
+		},
+		{
+			"name":"error",
+			"strings":{
+				"default":"Error",
+				"he":"שגיאה"
+			}
+		},
+		{
+			"name":"at_line",
+			"strings":{
+				"default":"At Line",
+				"he":"בשורה"
+			}
+		},
+		{
+			"name":"at_character",
+			"strings":{
+				"default":"At Character",
+				"he":"בסימן מספר"
+			}
+		},
+		{
+			"name":"describe_the_gist",
+			"strings":{
+				"default":"Describe the Gist:",
+				"he":"תאר את הג'יסט:"
+			}
+		},
+		{
+			"name":"made_with_jaser",
+			"strings":{
+				"default":"Made with Jaser.",
+				"he":"נוצר עם ג'ייסר"
+			}
+		},
+		{
+			"name":"name_the_file_for_the_gist",
+			"strings":{
+				"default":"Name the file (For the Gist):",
+				"he":"תן שם לקובץ (בשביל הג'יסט):"
+			}
+		},
+		{
+			"name":"do_you_want_this_gist_to_be_public",
+			"strings":{
+				"default":"Do you want this Gist to be public?",
+				"he":"האם הג'יסט הזה אמור להיות פומבי?"
+			}
+		},
+		{
+			"name":"is_this_fine",
+			"strings":{
+				"default":"Is this fine?",
+				"he":"האם זה בסדר?"
+			}
+		},
+		{
+			"name":"description",
+			"strings":{
+				"default":"Description",
+				"he":"תאור"
+			}
+		},
+		{
+			"name":"file_name",
+			"strings":{
+				"default":"File Name",
+				"he":"שם קובץ"
+			}
+		},
+		{
+			"name":"public",
+			"strings":{
+				"default":"Public",
+				"he":"פומבי"
+			}
+		},
+		{
+			"name":"true",
+			"strings":{
+				"default":"True",
+				"he":"אמת"
+			}
+		},
+		{
+			"name":"false",
+			"strings":{
+				"default":"False",
+				"he":"שקר"
+			}
+		},
+		{
+			"name":"an_error_occurred",
+			"strings":{
+				"default":"An error occurred",
+				"he":"שגיאה קרתה"
+			}
+		},
+		{
+			"name":"gist_was_created",
+			"strings":{
+				"default":"Gist was created!",
+				"he":"ג'יסט נוצר!"
+			}
+		},
+		{
+			"name":"url",
+			"strings":{
+				"default":"URL",
+				"he":"כתובת"
+			}
+		},
+		{
+			"name":"id",
+			"strings":{
+				"default":"ID",
+				"he":"מזהה"
+			}
+		},
+		{
+			"name":"language",
+			"strings":{
+				"default":"Language:",
+				"he":"שפה:"
+			}
+		},
+		{
+			"name":"no_app_data",
+			"strings":{
+				"default":"No app data directory was found.\nExiting Jaser...",
+				"he":"לא נמצאה תיקיית נתוני יישומים.\nיוצא מג'ייסר..."
+			}
+		},
+		{
+			"name":"gist_no_files",
+			"strings":{
+				"default":"No JavaScript/Python Files were found within this gist.",
+				"he":"לא נמצאו בג'יסט זה קבצי ג'אווה סקריפט או פייתון."
+			}
+		},
+		{
+			"name":"request_gist_id",
+			"strings":{
+				"default":"Gist ID or URL:",
+				"he":"מזהה או כתובת ג'יסט:"
+			}
+		},
+		{
+			"name":"gist_file_choose",
+			"strings":{
+				"default":"Choose what file to open:",
+				"he":"בחר איזה קובץ לפתוח:"
+			}
+		},
+		{
+			"name":"my_gists",
+			"strings":{
+				"default":"My Gists",
+				"he":"הג'יסטים שלי"
+			}
+		}
+	]
+}

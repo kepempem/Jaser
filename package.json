@@ -1,0 +1,27 @@
+{
+  "name": "jaser",
+  "version": "0.0.1",
+  "description": "educational JavaScript IDE",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build_mac": "node scripts/build_mac.js",
+    "build_linux": "node scripts/build_linux.js"
+  },
+  "keywords": [
+    "JavaScript",
+    "education",
+    "IDE"
+  ],
+  "author": "Shani Shlapobersky",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2"
+  },
+  "dependencies": {
+    "@material/button": "^0.3.8",
+    "python-shell": "^0.4.0",
+    "vex-js": "^4.0.0"
+  }
+}

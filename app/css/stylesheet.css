@@ -1,0 +1,128 @@
+@import url("VT323/font.css");
+@import url("Space-Mono/font.css");
+@import url("../../node_modules/@material/button/dist/mdc.button.min.css");
+@import url("pace.css");
+@import url("../../node_modules/vex-js/dist/css/vex.css");
+@import url("../../node_modules/vex-js/dist/css/vex-theme-os.css");
+html,body{
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+#wrapper>div>.main-frame{
+	display:inline-block;
+	width:48.7%;
+	height:98.6%;
+	top:0;
+	word-wrap:break-word;
+}
+.page{
+	position:relative;
+	width:100%;
+	height:100%;
+	min-height:100% !important;
+}
+#wrapper > div > .main-frame{
+	position:fixed;
+	padding:5px;
+}
+#code_editor{
+	background-color:aliceblue;
+	color:black;
+	resize:none;
+	left:0;
+	font-size:22px;
+	font-family:'Space-Mono',monospace;
+	counter-reset:lines;
+	line-height:21px;
+	overflow:auto;
+	white-space:pre;
+	tab-size:4;
+}
+#code_editor div::before{
+	counter-increment:lines;
+	content:attr(data-prefix) counter(lines);
+	display:inline-block;
+	border-right:1px solid #ddd;
+	padding:0 .5em;
+	//margin-right:.5em;
+	margin-right:5px;
+	color:#888;
+	font-family:"VT323";
+}
+#console{
+	background-color:black;
+	color:white;
+	right:0;
+	overflow:auto;
+	font-family:"VT323" !important;
+	font-size:32px !important;
+}
+*{
+	outline:none;
+}
+#controls{
+	bottom:25px;
+	right:35px;
+	float:right;
+	position:absolute;
+}
+#controls > button{
+	background-color:white;
+	display:block;
+	margin:5px;
+}
+.jaser-output-string{
+	color:crimson;
+}
+.jaser-output-boolean,.jaser-output-number{
+	color:aqua;
+}
+.jaser-output-function{
+	color:yellow;
+}
+.jaser-output-object{
+	color:deeppink;
+}
+.jaser-output-class{
+	color:lime;
+}
+.jaser-output-null,
+.jaser-output-string,
+.jaser-output-object,
+.jaser-output-number,
+.jaser-output-function,
+.jaser-output-boolean,
+.jaser-output-class,
+.jaser-error{
+	white-space:pre;
+}
+.jaser-output-null{
+	color:orange;
+}
+.jaser-error{
+	border-left:5px solid red;
+	padding:5px;
+	background-color:rgba(255, 0, 0, 0.5);
+	color:white;
+	font-size:24px;
+	width:100%;
+}
+.output_line{}
+.vex-theme-os,.vex-theme-os>*{
+	white-space:pre-line;
+	word-wrap:break-word;
+}
+.link{
+	color:deeppink;
+	cursor:pointer;
+}
+.link:hover{
+	color:white;
+	background-color:deeppink;
+	text-decoration:none;
+	cursor:pointer;
+}
+/*.jaser-output-object *::before{
+	content:"  ";
+}*/

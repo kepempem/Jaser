@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My Gists</title>
+		<script>
+			const electron = require("electron");
+			const {shell} = electron;
+			const cookies = require("./js/cookies");
+			let MyGists = cookies.get("gists");
+		</script>
+	</head>
+	<body>
+		<ol></ol>
+		<script>
+			const list = document.getElementsByTagName("ol")[0];
+			for(let i=MyGists.length-1;i>-1;i--){
+				let it = document.createElement("li");
+				let ti = document.createElement("h2");
+				ti.appendChild(document.createTextNode(MyGists[i].file));
+				ti.style.cursor = "pointer";
+				it.appendChild(ti);
+				let desc = document.createElement("p");
+				desc.style.width = "150px";
+				desc.style.wordWrap = "break-word";
+				desc.appendChild(document.createTextNode(MyGists[i].desc));
+				it.appendChild(desc);
+				ti.addEventListener("click",()=>{
+					shell.openExternal("http://gist.github.com/"+MyGists[i].id);
+				});
+				list.appendChild(it);
+			}
+		</script>
+	</body>
+</html>

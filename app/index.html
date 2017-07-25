@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title class="interface_string" string-name="title"></title>
+		<script src="js/pace.js"></script>
+		<script>
+			Pace.on("done",()=>{
+				setTimeout(()=>{
+					document.getElementsByClassName("page")[0].style.display = "inherit";
+				},100);
+			});
+		</script>
+		<link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+	</head>
+	<body>
+		<div class="page" style="display:none;">
+			<div id="wrapper">
+				<div id="code_editor_wrapper">
+					<div contenteditable="true" id="code_editor" class="main-frame"></div>
+				</div>
+				<div id="console_wrapper">
+					<div id="console" class="main-frame"></div>
+				</div>
+			</div>
+			<div id="controls">
+				<p>
+					<label for="lang_selector" class="interface_string" string-name="language" style="color:white;"></label><br/>
+					<select id="lang_selector">
+						<option value="js">JavaScript</option>
+						<option value="py">Python</option>
+					</select>
+				</p>
+				<button class="mdc-button mdc-button--raised interface_string" string-name="clear" id="clear"></button>
+				<button class="mdc-button mdc-button--raised interface_string" string-name="run" id="run"></button>
+			</div>
+			<footer></footer>
+		</div>
+		<script src="IDE.js"></script>
+	</body>
+</html>
